@@ -1,0 +1,14 @@
+/home/devrok/vs_projects/Conceptos_C#/bin/Debug/net9.0/Conceptos_C#
+/home/devrok/vs_projects/Conceptos_C#/bin/Debug/net9.0/Conceptos_C#.deps.json
+/home/devrok/vs_projects/Conceptos_C#/bin/Debug/net9.0/Conceptos_C#.runtimeconfig.json
+/home/devrok/vs_projects/Conceptos_C#/bin/Debug/net9.0/Conceptos_C#.dll
+/home/devrok/vs_projects/Conceptos_C#/bin/Debug/net9.0/Conceptos_C#.pdb
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.AssemblyInfoInputs.cache
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.AssemblyInfo.cs
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.csproj.CoreCompileInputs.cache
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.dll
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/refint/Conceptos_C#.dll
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.pdb
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/Conceptos_C#.genruntimeconfig.cache
+/home/devrok/vs_projects/Conceptos_C#/obj/Debug/net9.0/ref/Conceptos_C#.dll
