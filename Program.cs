@@ -58,7 +58,7 @@ namespace GetingStarted
 
             // Wait for the user to press Enter before exiting
             Console.Write($"{Environment.NewLine}Press Enter to exit...");
-            Console.Read();
+            Console.ReadLine();
         }
     }
 
@@ -76,6 +76,7 @@ namespace GetingStarted
             dynamic myDynamic = 10;
             myDynamic = "Now is String value";
             Console.WriteLine($"The value of myDynamic is: {myDynamic}");
+            Console.ReadLine();
         }
     }
 
@@ -155,6 +156,7 @@ namespace GetingStarted
             var myTuple = Tuple.Create("Juan", 1, 3.5);
             Console.WriteLine($"The first value is: {myTuple}");
             Console.WriteLine($"The first value is: {myTuple.Item1}");
+            Console.ReadLine();
         }
     }
 
@@ -185,6 +187,7 @@ namespace GetingStarted
                 Console.WriteLine($"The value of k is: {k}");
                 k++;
             } while (k < 10);
+            Console.ReadLine();
         }
     }
 
@@ -193,6 +196,7 @@ namespace GetingStarted
         public static void Sub5(string[] args)
         {
             MyFunction();
+            Console.ReadLine();
         }
         // use of functions.
         static void MyFunction()
@@ -218,6 +222,7 @@ namespace GetingStarted
             Console.WriteLine($"The name is: {myClass.myName}");
             Console.WriteLine($"The age is: {myClass.myAge}");
             Console.WriteLine($"The address is: {myClass.myAddress}");
+            Console.ReadLine();
         }
         public TheClass(string name, int age, string address)
         {
