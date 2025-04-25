@@ -38,25 +38,11 @@ namespace GetingStarted
             var greetingsTime = string.Empty;
 
             string message = currentDate.Hour < 12 ? greetingsTime = "Good morning!" : currentDate.Hour < 18 ? greetingsTime = "Good afternoon!" : greetingsTime = "Good evening!";
-            string greetings = $"Hello, {name}, on {currentDate:d} at {currentDate:t} it means {greetingsTime}!";
-
-            //if (currentDate.Hour < 12)
-            //{
-            //    greetings = "Good morning!";
-            //}
-            //else if (currentDate.Hour < 18)
-            //{
-            //    greetings = "Good afternoon!";
-            //}
-            //else
-            //{
-            //    greetings = "Good evening!";
-            //}
+            // Greet the user with their name, current date, and time
+            string greetings = $"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t} it means {greetingsTime}!";
 
             Console.WriteLine(greetings);
 
-            // Greet the user with their name, current date, and time
-            //Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t} it means {message}!");
 
             const string myConst = "My const string";
             Console.WriteLine(myConst);
