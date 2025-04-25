@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Conceptos_C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83a8690e92a94697a51a80f11c38f1db2470a127")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c5c81521ea09892c6826a78b98ad5e6f1c11509")]
 [assembly: System.Reflection.AssemblyProductAttribute("Conceptos_C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Conceptos_C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

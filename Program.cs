@@ -12,12 +12,12 @@ namespace GetingStarted
     {
         static void Main(string[] args)
         {
-            // ConcatenateStrings.Sub(args);
-            // Numbers.Sub2(args);
-            Structures.Sub3(args);
-            // Bucles.Sub4(args);
-            // Functions.Sub5(args);
-            // TheClass.Sub6(args);
+             ConcatenateStrings.Sub(args);
+            //Numbers.Sub2(args);
+            //Structures.Sub3(args);
+            //Bucles.Sub4(args);
+            //Functions.Sub5(args);
+            //TheClass.Sub6(args);
         }
     }
     class ConcatenateStrings
@@ -35,23 +35,28 @@ namespace GetingStarted
 
             // Get the current date and time
             var currentDate = DateTime.Now;
-            var greetings = string.Empty;
+            var greetingsTime = string.Empty;
 
-            if (currentDate.Hour < 12)
-            {
-                greetings = "Good morning!";
-            }
-            else if (currentDate.Hour < 18)
-            {
-                greetings = "Good afternoon!";
-            }
-            else
-            {
-                greetings = "Good evening!";
-            }
+            string message = currentDate.Hour < 12 ? greetingsTime = "Good morning!" : currentDate.Hour < 18 ? greetingsTime = "Good afternoon!" : greetingsTime = "Good evening!";
+            string greetings = $"Hello, {name}, on {currentDate:d} at {currentDate:t} it means {greetingsTime}!";
+
+            //if (currentDate.Hour < 12)
+            //{
+            //    greetings = "Good morning!";
+            //}
+            //else if (currentDate.Hour < 18)
+            //{
+            //    greetings = "Good afternoon!";
+            //}
+            //else
+            //{
+            //    greetings = "Good evening!";
+            //}
+
+            Console.WriteLine(greetings);
 
             // Greet the user with their name, current date, and time
-            Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t} it means {greetings}!");
+            //Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t} it means {message}!");
 
             const string myConst = "My const string";
             Console.WriteLine(myConst);
